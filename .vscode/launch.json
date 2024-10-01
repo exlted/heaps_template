@@ -1,0 +1,16 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+        {
+            "name": "HashLink (launch)",
+            "request": "launch",
+            "type": "hl",
+            "program": "${workspaceFolder}/hello.hl",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": {
+                "type": "haxe",
+                "args": "active configuration"
+            }
+        }
+	]
+}
